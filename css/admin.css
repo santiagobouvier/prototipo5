@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    
+  }
+
+  .admin-items{
+    display: flex; 
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .display-admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .admin img{
+      width: 100px;
+      margin-bottom: 20px;
+  }
+
+  label {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  input,
+  textarea,
+  select {
+    width: 600px;
+    border: gray 1px solid;
+    resize: none;
+    padding: 8px;
+  }
+
+  @media (max-width: 1200px) {
+  
+    input,
+    textarea,
+    select {
+      width: 500px !important;
+    }
+
+    #controldiv {
+      width: 740px;
+    }
+
+    
+  }
+
+  @media (max-width: 927px) {
+  
+    input,
+    textarea,
+    select {
+      width: 300px !important;
+    }
+    #controldiv {
+      width: 540px;
+    }
+
+  }
+
+  @media (max-width: 737px) {
+  
+    input,
+    textarea,
+    select {
+      width: 200px !important;
+    }
+  }
+
+  @media (max-width: 533px) {
+  
+    input,
+    textarea,
+    select {
+      width: 100px !important;
+    }
+  }
+
+  @media (min-width: 233px) {
+  
+    #controldiv {
+      width: 100%;
+    }
+
+    #controldiv button, a {
+      margin: 10px;
+    }
+  }
+
+
+
+  select {
+    width: 618px;
+  }
+
+  .imagesDivStyle {
+    width: 600px;
+    border: 1px gainsboro solid;
+    padding: 5px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+  }
+
+  .productDescription{
+      display: flex;
+      align-items: center;
+  }
+
+  textarea {  
+    margin-left: 4px;  
+    height: 100px;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+  }
+
+  .pointers {
+    border: 1px darkslateblue dashed;
+  }
+
+  #pdlab {
+    height: 100px;
+    vertical-align: top;
+  }
+
+  #addprodbtn,
+  #selimgsbtn {
+    float: right;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #e9c081;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+ 
+  #selimgsbtn:hover{
+      color:#e9c081;
+      background-color: white;
+      transition: 1s;
+      border:1px #e9c081 solid ;
+  }
+
+  #addprodbtn:hover{
+    color:#e9c081;
+    background-color: white;
+    transition: 1s;
+    border:1px #e9c081 solid ;
+}
+
+  
+
+
+
+  #loadlab {
+    width: 200px;
+  }
+
+  .imgs {
+    height: 80px;
+    width: 100px;
+    border: 1px black dashed;
+    margin: 5px;
+  }
+
+  /*
+  inicio sesion
+  */
+
+
+#sesionbtn{
+    float: center;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: #e9c081;
+    border: none;
+    color: white;
+  }
+  
+  #sesionbtn:hover{
+      color:#e9c081;
+      background-color: white;
+      transition: 1s;
+      border:1px #e9c081 solid ;
+  }
+
+
+  /* List of products*/
+
+ 
+  #item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: black solid 2px;
+  }
+
+  #item h2{
+      margin-left: 20px;
+  }
+
+  #item img{
+      width: 50px;
+      height: 50px;
+      margin-top: 15px;  
+      margin-right: 10px;    
+      object-fit: cover;
+      cursor: pointer;
+  }
+
+  #item img:hover{
+      opacity: 0.6;
+      transition: 1s;
+  }
+
+  #titleListProducts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #titleListProducts a{
+      text-decoration: none;
+      color: white;
+      background-color:#e9c081 ;
+      padding: 15px;
+      border-radius: 10px;
+  }
+
+  #titleListProducts a:hover{
+    text-decoration: none;
+    color: #e9c081;
+    background-color: white ;
+    border: 1px solid #e9c081;
+    transition: 1s;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.header-admin{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-admin a{
+  float: right;
+  margin-left: 10px;
+  padding: 15px;
+  background-color: #e9c081;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-size: smaller;
+}
+
+.header-admin a:hover{
+  color:#e9c081;
+  background-color: white;
+  transition: 1s;
+  border:1px #e9c081 solid ;
+}
